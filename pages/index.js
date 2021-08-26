@@ -7,6 +7,12 @@ import * as svgComponent from '../src/components/icons'
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>UJET Shop | UJET</title>
+        <meta name="description" content="" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
 
         <h1 className={styles.title}>Hello UJET!</h1>
         <div>
@@ -29,7 +35,7 @@ export default function Home() {
           <div className={styles['table-headline-blue']}>Today's Charge</div>
           <div className={styles.grid}>
           <span className={`${styles.number} ${styles['align-center']}`}>1</span> 
-          
+
         </div>
     </div>
   )
