@@ -29,6 +29,7 @@ export default function Home() {
           <div className={styles['table-headline-blue']}>Today's Charge</div>
           <div className={styles.grid}>
           <span className={`${styles.number} ${styles['align-center']}`}>1</span> 
+          
         </div>
     </div>
   )
