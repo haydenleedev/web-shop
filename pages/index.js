@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>UJET Shop | UJET</title>
+        <title>UJET Packages | UJET</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="noindex, nofollow" />
